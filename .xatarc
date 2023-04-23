@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://demo-uni3q8.eu-west-1.xata.sh/db/demo9",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
