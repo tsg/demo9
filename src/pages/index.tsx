@@ -8,7 +8,7 @@ export async function getServerSideProps(context: any) {
   const xata = getXataClient();
   const user = await xata.db.Users.getFirst();
   return {
-    props: { name: user?.name }, // will be passed to the page component as props
+    props: { name: user?.name },
   };
 }
 
